@@ -21,5 +21,9 @@
    cd ~/ros2_ws
    colcon build --packages-select ai_tracker --symlink-install
    source install/setup.bash
-3. รัน Node ฝั่งบันทึกข้อมูล (Terminal 1): ros2 run ai_tracker speed_subscriber
-4. รัน Node ฝั่ง AI ประมวลผลหลัก (Terminal 2): ros2 run ai_tracker speed_detector
+3. รัน Node ฝั่งบันทึกข้อมูล (Terminal 1):
+   ```bash
+   ros2 run ai_tracker speed_subscriber
+4. รัน Node ฝั่ง AI ประมวลผลหลัก (Terminal 2):
+   ```bash
+   ros2 run ai_tracker speed_detector
