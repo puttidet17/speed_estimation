@@ -1,0 +1,16 @@
+# ROS 2 build artifacts
+build/
+install/
+log/
+
+# Python virtual environment
+ros_ai_env/
+__pycache__/
+*.pyc
+
+# AI Models & Data (Large Files)
+*.pt
+*.onnx
+data/cars.mp4
+data/output_speed_estimation_v2.mp4
+data/speed_logs.csv
